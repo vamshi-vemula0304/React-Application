@@ -1,0 +1,16 @@
+.product {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.countContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.countContainer button {
+    margin: 0 5px;
+}

@@ -1,0 +1,24 @@
+.centerContainer {
+    background-color: bisque;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    text-align: center;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    margin-top: 5px;
+}
+
+.weatherContainer {
+    margin-top: 20px;
+}

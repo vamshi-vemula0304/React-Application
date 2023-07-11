@@ -1,0 +1,22 @@
+input{
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 10px;
+}
+h5{
+  padding-top: 4px;
+}
+button{
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 10px;
+}
+body{
+  background-color: bisque;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+ul{
+  padding-left: 0;
+  padding-bottom: 4px;
+}
