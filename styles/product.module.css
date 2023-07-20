@@ -14,3 +14,13 @@
 .countContainer button {
     margin: 0 5px;
 }
+
+.centerContainer{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    text-align: center;
+}

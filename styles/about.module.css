@@ -1,0 +1,26 @@
+.body{
+    margin: 0 auto;
+    max-width: 50rem;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+.heading{
+    padding-bottom: 20px;
+}
+.para{
+    text-align: left;
+}
+
+.profilePic{
+    margin-bottom: 20px;
+}
+.link{
+    margin: 100px;
+    text-decoration:None;
+    line-height: 50px;
+    margin-left:0;
+}
+.link:hover{
+    color:rgb(88, 123, 110);
+}

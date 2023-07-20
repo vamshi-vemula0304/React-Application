@@ -20,3 +20,14 @@ ul{
   padding-left: 0;
   padding-bottom: 4px;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1%;
+  margin-bottom: 0;
+  background-color: aquamarine;
+  color: rgb(88, 123, 110);
+  text-align: center;
+}
