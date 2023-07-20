@@ -52,7 +52,7 @@ const WeatherApp: React.FC = () => {
 
             {weatherData && (
                 <div className={Styles.weatherContainer}>
-                    <h2>Current Weather in {location}</h2>
+                    <h3>Current Weather in {location}</h3>
                     <p>Temperature: {weatherData.main.temp}°C</p>
                     <p>Condition: {weatherData.weather[0].description}</p>
                     <div><Image src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`} alt="Weather Icon" width={100} height={ 100 } /></div>

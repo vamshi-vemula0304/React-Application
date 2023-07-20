@@ -1,6 +1,9 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 import { products } from '../../utils/productsDb';
+// import { Styles } from '../../styles/product.module.css';
+import Styles  from '../../styles/product.module.css';
+
 
 
 const ShoppingCart: React.FC = () => {
@@ -28,7 +31,7 @@ const ShoppingCart: React.FC = () => {
     }
 
     return (
-        <div>
+        <div className={Styles.centerContainer}>
             <h1>Shopping Cart</h1>
 
             <h2>Cart:</h2>

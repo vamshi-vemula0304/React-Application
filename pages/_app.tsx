@@ -2,6 +2,8 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import NavBar from '@/components/navbar'
+import Footer from '@/components/footer'
+
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -11,10 +13,12 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet" />
+        {/* <script src="https://kit.fontawesome.com/492f7a7d2b.js" crossorigin="anonymous"></script> */}
         <title>React App</title>
       </Head>
       <NavBar />
       <Component {...pageProps} />
+      <Footer />
     </>
     
   )
