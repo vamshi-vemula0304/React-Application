@@ -10,6 +10,7 @@ button{
   border-radius: 5px;
   outline: none;
   padding: 5px 10px;
+  background: #f1f0f0;
 }
 body{
   background-color: bisque;

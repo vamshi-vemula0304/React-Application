@@ -11,12 +11,19 @@
 .para{
     text-align: left;
 }
-
+.div{
+    display: flex;
+}
+.divd{
+    padding:2% 4% 2% 0;
+}
 .profilePic{
     margin-bottom: 20px;
+    width:50%;
+    height: 50%;
 }
 .link{
-    margin: 100px;
+    /* margin: 70px; */
     text-decoration:None;
     line-height: 50px;
     margin-left:0;
