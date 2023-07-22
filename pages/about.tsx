@@ -35,9 +35,17 @@ export default function Home() {
             </div>
             <div>
                 <h4 className={styles.para} >My Online Profile</h4>
-                <Link className={styles.link} href="https://www.linkedin.com/in/vamshi-vemula0304/" >LinkedIn</Link>
-                <Link className={styles.link} href="https://www.github.com/vamshi-vemula0304/" >Github</Link>
-                <Link className={styles.link} href="https://www.leetcode.com/vamshi-vemula0304/" >LeetCode</Link>
+                <div className={styles.div}>
+                    <div className={styles.divd}>
+                        <Link className={styles.link} href="https://www.linkedin.com/in/vamshi-vemula0304/" >LinkedIn</Link>
+                    </div>
+                    <div className={styles.divd}>
+                        <Link className={styles.link} href="https://www.github.com/vamshi-vemula0304/" >Github</Link>
+                    </div>
+                    <div className={styles.divd}>
+                        <Link className={styles.link} href="https://www.leetcode.com/vamshi-vemula0304/" >LeetCode</Link>
+                    </div>
+                </div>
             </div>
             <div className={styles.para}>
                 <h4>Contact info</h4>
